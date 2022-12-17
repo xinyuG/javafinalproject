@@ -1,11 +1,13 @@
-package com.xinyu.javafinalprojectxy;
+package com.xinyu.javafinalprojectxy.config;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.core.env.Environment;
 
+@ComponentScan("com.xinyu")//@ComponentScan({"com.xinyu","com.another..."})
 @SpringBootApplication
 public class JavafinalprojectxyApplication {
 	private static final Logger LOG = LoggerFactory.getLogger(JavafinalprojectxyApplication.class);
