@@ -171,3 +171,48 @@
 2022-12-17 15:08:46.083 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2022-12-17 15:08:46.084 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
 2022-12-17 15:08:46.085 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2022-12-17 15:24:34.417 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-12-17 15:24:37.665 INFO  c.x.j.config.JavafinalprojectxyApplication        :55   [32m                  [0;39m Starting JavafinalprojectxyApplication using Java 18.0.1.1 on 10-18-125-93.dynapool.wireless.nyu.edu with PID 10966 (/Users/xinyu/Desktop/9053-JAVA/javafinalprojectxy/target/classes started by xinyu in /Users/xinyu/Desktop/9053-JAVA/javafinalprojectxy)
+2022-12-17 15:24:37.667 INFO  c.x.j.config.JavafinalprojectxyApplication        :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-12-17 15:24:38.361 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8881 (http)
+2022-12-17 15:24:38.370 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8881"]
+2022-12-17 15:24:38.370 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-12-17 15:24:38.371 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-12-17 15:24:38.425 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-12-17 15:24:38.426 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 711 ms
+2022-12-17 15:24:38.568 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-12-17 15:24:38.729 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8881"]
+2022-12-17 15:24:38.741 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8881 (http) with context path ''
+2022-12-17 15:24:38.750 INFO  c.x.j.config.JavafinalprojectxyApplication        :61   [32m                  [0;39m Started JavafinalprojectxyApplication in 1.487 seconds (JVM running for 2.057)
+2022-12-17 15:24:38.752 INFO  c.x.j.config.JavafinalprojectxyApplication        :18   [32m                  [0;39m Start!
+2022-12-17 15:24:38.753 INFO  c.x.j.config.JavafinalprojectxyApplication        :19   [32m                  [0;39m address: 	http://127.0.0.1:8881
+2022-12-17 15:26:55.834 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-12-17 15:26:58.286 INFO  c.x.j.config.JavafinalprojectxyApplication        :55   [32m                  [0;39m Starting JavafinalprojectxyApplication using Java 18.0.1.1 on 10-18-125-93.dynapool.wireless.nyu.edu with PID 11005 (/Users/xinyu/Desktop/9053-JAVA/javafinalprojectxy/target/classes started by xinyu in /Users/xinyu/Desktop/9053-JAVA/javafinalprojectxy)
+2022-12-17 15:26:58.290 INFO  c.x.j.config.JavafinalprojectxyApplication        :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-12-17 15:26:58.987 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-12-17 15:26:58.995 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-12-17 15:26:58.996 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-12-17 15:26:58.996 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-12-17 15:26:59.050 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-12-17 15:26:59.050 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 709 ms
+2022-12-17 15:26:59.190 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-12-17 15:26:59.363 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-12-17 15:26:59.375 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-17 15:26:59.385 INFO  c.x.j.config.JavafinalprojectxyApplication        :61   [32m                  [0;39m Started JavafinalprojectxyApplication in 1.573 seconds (JVM running for 2.093)
+2022-12-17 15:26:59.387 INFO  c.x.j.config.JavafinalprojectxyApplication        :18   [32m                  [0;39m Start!
+2022-12-17 15:26:59.387 INFO  c.x.j.config.JavafinalprojectxyApplication        :19   [32m                  [0;39m address: 	http://127.0.0.1:null
+2022-12-17 15:27:08.417 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-12-17 15:27:10.965 INFO  c.x.j.config.JavafinalprojectxyApplication        :55   [32m                  [0;39m Starting JavafinalprojectxyApplication using Java 18.0.1.1 on 10-18-125-93.dynapool.wireless.nyu.edu with PID 11016 (/Users/xinyu/Desktop/9053-JAVA/javafinalprojectxy/target/classes started by xinyu in /Users/xinyu/Desktop/9053-JAVA/javafinalprojectxy)
+2022-12-17 15:27:10.968 INFO  c.x.j.config.JavafinalprojectxyApplication        :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-12-17 15:27:11.665 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8882 (http)
+2022-12-17 15:27:11.673 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8882"]
+2022-12-17 15:27:11.674 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-12-17 15:27:11.674 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-12-17 15:27:11.722 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-12-17 15:27:11.723 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 705 ms
+2022-12-17 15:27:11.857 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-12-17 15:27:12.014 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8882"]
+2022-12-17 15:27:12.028 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8882 (http) with context path ''
+2022-12-17 15:27:12.039 INFO  c.x.j.config.JavafinalprojectxyApplication        :61   [32m                  [0;39m Started JavafinalprojectxyApplication in 1.54 seconds (JVM running for 2.104)
+2022-12-17 15:27:12.041 INFO  c.x.j.config.JavafinalprojectxyApplication        :18   [32m                  [0;39m Start!
+2022-12-17 15:27:12.042 INFO  c.x.j.config.JavafinalprojectxyApplication        :19   [32m                  [0;39m address: 	http://127.0.0.1:8882
